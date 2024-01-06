@@ -2,8 +2,6 @@ import pandas as pd #import streamlit as st
 from langchain.chat_models import ChatOpenAI
 from langchain.agents import create_pandas_dataframe_agent
 from langchain.agents.agent_types import AgentType
-from visual_functions import load_csv, generate_response, other_inputs
-import visual_functions as mf # The file and or its path has to be changed but the abbreviation will remain constant.
 from tempfile import NamedTemporaryFile
 import statistics
 import plotly 
